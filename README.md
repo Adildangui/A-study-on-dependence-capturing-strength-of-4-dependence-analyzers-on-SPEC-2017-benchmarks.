@@ -1,9 +1,9 @@
 A Study on "Dependence capturing strength" of four Dependence Analyzers in LLVM on SPEC 2017 benchmarks
 =======================================================================================================
 
-Adil Arun Dangui, Utpal Bora, Dangeti Tharun Kumar
+## *Adil Arun Dangui, Utpal Bora, Dangeti Tharun Kumar*
 
-     IIT HYDERABAD
+## *IIT HYDERABAD*
 
 In this project, we study the "dependence capturing strength" of the four dependence analyzers on SPEC 2017 benchmarks. Namely the following
 
