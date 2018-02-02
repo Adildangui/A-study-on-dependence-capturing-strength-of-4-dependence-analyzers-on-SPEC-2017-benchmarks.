@@ -1,9 +1,9 @@
-A Study on "Dependence capturing strength" of 
-four Dependence Analyzers in LLVM on SPEC 2017 benchmarks
+A Study on "Dependence capturing strength" of four Dependence Analyzers in LLVM on SPEC 2017 benchmarks
 =======================================================================================================
 
-## **Adil Arun Dangui, Utpal Bora, Dangeti Tharun Kumar**
-## **IIT HYDERABAD**
+Adil Arun Dangui, Utpal Bora, Dangeti Tharun Kumar
+
+     IIT HYDERABAD
 
 In this project, we study the "dependence capturing strength" of the four dependence analyzers on SPEC 2017 benchmarks. Namely the following
 
@@ -37,17 +37,15 @@ It is a collection of standardized benchmarks and tools to evaluate performance 
 
 [500.perlbench_r](https://www.spec.org/cpu2017/Docs/benchmarks/500.perlbench_r.html), [502.gcc_r](https://www.spec.org/cpu2017/Docs/benchmarks/502.gcc_r.html), [505.mcf_r](https://www.spec.org/cpu2017/Docs/benchmarks/505.mcf_r.html), [523.xalancbmk_r](https://www.spec.org/cpu2017/Docs/benchmarks/523.xalancbmk_r.html), [531.deepsjeng_r](https://www.spec.org/cpu2017/Docs/benchmarks/531.deepsjeng_r.html), [541.leela_r](https://www.spec.org/cpu2017/Docs/benchmarks/541.leela_r.html), [548.exchange2_r](https://www.spec.org/cpu2017/Docs/benchmarks/548.exchange2_r.html), [508.namd_r](https://www.spec.org/cpu2017/Docs/benchmarks/508.namd_r.html), [510.parest_r](https://www.spec.org/cpu2017/Docs/benchmarks/510.parest_r.html) , [544.nab_r](https://www.spec.org/cpu2017/Docs/benchmarks/544.nab_r.html).
 
-## Prerequisites:
-
-------------------
+Prerequisites:
+--------------
 
 1.  Prerequisite passes:
 
-Following passes were run before getting the the count of dependencies captured by each analyzer.
+1.  Following passes were run before getting the the count of dependencies captured by each analyzer.\
+    -mem2reg  -loops  -loop-simplify  -loop-rotate  -loop-simplifycfg
 
--mem2reg  -loops  -loop-simplify  -loop-rotate  -loop-simplifycfg
-
-## Results:
-------------------
+Results:
+--------
 
  <https://drive.google.com/open?id=1Sgfpe7D3t2j_COj0C4NJMNdlxGSuj8Qw>
